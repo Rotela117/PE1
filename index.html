@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Principal de Navegación</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos específicos para los botones */
+        .botones-navegacion {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 50px 0;
+        }
+
+        .botones-navegacion a {
+            text-decoration: none; /* Quitar el subrayado del enlace */
+            color: white;
+            background-color: #dc3545; /* Color rojo para los botones */
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .botones-navegacion a:hover {
+            background-color: #c82333; /* Rojo más oscuro al pasar el ratón */
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Menú Principal de la Tarea 🌐</h1>
+        <p>Selecciona una de las páginas de destino.</p>
+    </header>
+
+    <section class="botones-navegacion">
+        <a href="Pagina 1.html">Página 1</a>
+        <a href="Pagina 2.html">Página 2</a>
+        <a href="Pagina 3.html">Página 3</a>
+        <a href="Pagina 4.html">Página 4</a>
+        <a href="Pagina 5.html">Página 5</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Navegación de Tarea HTML</p>
+    </footer>
+
+</body>
+</html>
